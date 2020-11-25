@@ -16,7 +16,7 @@ def get_japanese_emoticon(file_path, emoticon)
  emoticons = YAML.load_file(file_path)
  emoticons.each do |key, value|
    if emoticons[key][0] == emoticon
-     puts key[1]
+     puts emoticons[key][1]
    else 
      puts "Sorry, that emoticon was not found"
    #binding.pry
