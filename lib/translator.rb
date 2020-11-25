@@ -19,7 +19,7 @@ def get_japanese_emoticon(file_path, emoticon)
    if emoticons[key][0] == emoticon
      puts emoticons[key][1]
    else 
-     puts "Sorry, that emoticon was not found"
+   "Sorry, that emoticon was not found"
    #binding.pry
   end
  end
